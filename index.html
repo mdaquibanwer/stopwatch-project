@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>stopwatch</title>
+</head>
+<body>
+    <div id="container">
+        <div class="time-container">
+            <span class="timer" id="hrs">00</span>
+            <span class="text">hours</span>
+            <span class="timer" id="mins">00</span>
+            <span class="text">minutes</span>
+            <span class="timer" id="secs">00</span>
+            <span class="text">seconds</span>
+            <span class="timer" id="ms">00</span>
+        </div>
+        <div class="btn-container">
+            <button class="btn start" onclick="startTimer()">start</button>
+            <button class="btn stop" onclick="stopTimer()">stop</button>
+            <button class="btn reset" onclick="resetTimer()">reset</button>
+        </div>
+    </div>
+</body>
+</html>
